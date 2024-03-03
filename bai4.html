@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gửi lời mời tham gia sự kiện</title>
+  <style>
+    button {
+      background-color: #0600b7;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      margin: 10px;
+    }
+    button:hover {
+      background-color: #004b92;
+    }
+    body {background-color: #f0eeee;}
+  </style>
+</head>
+<body style="margin: 150px;">
+    <div style="border: 1px solid rgba(105, 200, 127, 0.943); padding: 5px; text-align: center;">
+        <img src="https://p1.hiclipart.com/preview/884/1007/684/android-icons-r2-honeycomb-gmail-mail-logo-png-clipart.jpg" width="50" height="50">
+        <h1>Gửi lời mời tham gia sự kiện</h1>
+        <p> Hãy nhập email người mà bạn muốn gửi lời mời </p>
+        <form action="submit.php" method="post">
+            <label for="email"> </label>
+            <input placeholder="Enter Email" id="email" name="email" required>
+        </form>
+        <button>Gửi lời mời !</button>
+    </div>
+</body>
+</html>
